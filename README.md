@@ -2,6 +2,8 @@
 
 A subject-oriented, connected guide to computer science. The site uses Quartz v5 and Obsidian-compatible Markdown, so pages can be written in Obsidian and published as a static website.
 
+**Website:** [Computer Science Atlas](https://unraveltao.github.io/Computer-Science-Atlas/)
+
 ## Stack
 
 - Quartz v5 static site generator
@@ -37,6 +39,6 @@ The generated site is written to `public/` and is not committed.
 
 ## Deploy
 
-Push to `main`. GitHub Actions installs dependencies and plugins, builds the site, and deploys it through GitHub Pages. For the first deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
+Push to `main`. GitHub Actions installs dependencies and plugins, builds the site, and deploys it through GitHub Pages. Pages is configured to publish through GitHub Actions.
 
 See [Project Structure](docs/project-structure.md), [Content Guidelines](docs/content-guidelines.md), [Asset Guidelines](docs/asset-guidelines.md), and [Deployment](docs/deployment.md) for conventions and maintenance details.
