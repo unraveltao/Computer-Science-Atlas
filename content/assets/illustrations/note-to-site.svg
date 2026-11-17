@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 260" role="img" aria-labelledby="title desc">
+  <title id="title">From a note to a published page</title>
+  <desc id="desc">Three connected steps: write Markdown, build with Quartz, and publish with GitHub Pages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#eef5ff"/><stop offset="1" stop-color="#f5f2ff"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#7185a5"/></marker>
+  </defs>
+  <rect width="840" height="260" rx="26" fill="url(#bg)"/>
+  <g font-family="Inter,Segoe UI,sans-serif" text-anchor="middle">
+    <rect x="48" y="66" width="205" height="126" rx="18" fill="#fff" stroke="#c9d8ed" stroke-width="2"/><text x="150" y="113" fill="#253a5b" font-size="19" font-weight="700">Write</text><text x="150" y="147" fill="#63748f" font-size="15">Portable Markdown</text>
+    <path d="M270 129h84" fill="none" stroke="#7185a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="369" y="66" width="205" height="126" rx="18" fill="#fff" stroke="#c9d8ed" stroke-width="2"/><text x="471" y="113" fill="#253a5b" font-size="19" font-weight="700">Build</text><text x="471" y="147" fill="#63748f" font-size="15">Quartz v5</text>
+    <path d="M591 129h84" fill="none" stroke="#7185a5" stroke-width="3" marker-end="url(#arrow)"/>
+    <rect x="690" y="66" width="105" height="126" rx="18" fill="#fff" stroke="#c9d8ed" stroke-width="2"/><text x="742" y="109" fill="#253a5b" font-size="17" font-weight="700">Publish</text><text x="742" y="141" fill="#63748f" font-size="13">Pages</text>
+  </g>
+</svg>

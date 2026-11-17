@@ -1,3 +1,13 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Keep content illustrations within the responsive reading column.
+.markdown-rendered img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .page-title {
+    font-size: 1.15rem;
+  }
+}

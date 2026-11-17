@@ -1,17 +1,42 @@
-# Quartz v5
+# Computer Science Atlas
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+A subject-oriented, connected guide to computer science. The site uses Quartz v5 and Obsidian-compatible Markdown, so pages can be written in Obsidian and published as a static website.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+## Stack
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+- Quartz v5 static site generator
+- Obsidian-compatible Markdown, including wikilinks, callouts, tags, and Mermaid
+- GitHub Actions and GitHub Pages
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+## Requirements
 
-## Sponsors
+Use Node.js 22 or later and npm 10.9.2 or later, as required by the checked-in Quartz v5 package metadata. CI uses Node.js 24, following the official Quartz hosting workflow.
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+## Install
+
+```sh
+npm ci
+npx quartz plugin install
+```
+
+## Develop locally
+
+```sh
+npx quartz build --serve
+```
+
+Quartz serves the local site at `http://localhost:8080`.
+
+## Build
+
+```sh
+npx quartz build
+```
+
+The generated site is written to `public/` and is not committed.
+
+## Deploy
+
+Push to `main`. GitHub Actions installs dependencies and plugins, builds the site, and deploys it through GitHub Pages. For the first deployment, set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**.
+
+See [Project Structure](docs/project-structure.md), [Content Guidelines](docs/content-guidelines.md), [Asset Guidelines](docs/asset-guidelines.md), and [Deployment](docs/deployment.md) for conventions and maintenance details.
