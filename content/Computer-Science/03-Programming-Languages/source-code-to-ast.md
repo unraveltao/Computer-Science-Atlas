@@ -1,5 +1,7 @@
 ---
-title: 从源代码到抽象语法树（From Source Code to AST）
+title: 从源代码到抽象语法树
+aliases:
+  - From Source Code to AST
 description: 跟随 1 + 2 * 3 经过词法分析和语法分析，理解 AST 如何表达结构与运算优先级。
 tags:
   - programming-languages
@@ -9,19 +11,19 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 从源代码到抽象语法树（From Source Code to AST）
+# 从源代码到抽象语法树
 
 当我们写下 `1 + 2 * 3`，计算机并不会直接“看懂”这串字符。语言实现通常会逐步把字符识别为词元（Token），再按语法规则组织为抽象语法树（Abstract Syntax Tree，AST）。这棵树表达了程序的结构；后续的解释器或编译器再根据语言语义处理它。
 
-## 从字符到结构
+## 从字符到语法结构
 
-### Source Code：程序的文本表示
+### 源代码：程序的文本表示
 
 源代码（Source Code）是人按照某种编程语言的字符和语法规则编写的文本。这里的 `1 + 2 * 3` 是一个表达式：它包含数字字符、空格和运算符。空格可能只是分隔字符，不一定成为语法结构的一部分；具体如何处理由语言规则决定。
 
 可以把它想成一条句子：字符是字母和标点，词法分析先识别“词”，语法分析再判断这些词如何组成句子。这个类比只帮助理解两阶段的分工；程序语言的词法和语法规则由语言本身精确定义。
 
-### Lexer：把字符识别为 Token
+### 词法分析器：把字符识别为词元
 
 词法分析器（Lexer，也称 Scanner）从左到右读取字符，把字符片段归类为 Token。Token 通常包含种类和必要的词素信息，例如数字的数值或标识符的名称。
 
@@ -33,7 +35,7 @@ NUMBER(1), PLUS, NUMBER(2), STAR, NUMBER(3), EOF
 
 `NUMBER(1)` 表示一个数字词元及其值；`PLUS`、`STAR` 表示运算符；`EOF` 是输入结束标记。Lexer 识别这些单元，但不会决定 `*` 要先于 `+` 计算。
 
-### Parser：按语法规则组织 Token
+### 语法分析器：按语法规则组织词元
 
 语法分析器（Parser）接收 Token 序列，并检查它们能否组成语言允许的结构。它依据文法（Grammar）建立节点及父子关系。针对本例，可以用一组分层规则表达优先级：
 
@@ -44,11 +46,11 @@ multiplication → primary ("*" primary)*
 primary     → NUMBER | "(" expression ")"
 ```
 
-这里 `addition` 的操作数是 `multiplication`，而乘法层再读取基本项 `primary`。因此解析 `1 + 2 * 3` 时，右侧 `2 * 3` 会先作为一个完整子表达式建立，再和左侧的 `1` 一起组成加法。括号也在 `primary` 规则里递归解析；例如 ` (1 + 2) * 3 ` 会先把括号内的加法作为乘法的左操作数。
+这里 `addition` 的操作数是 `multiplication`，而乘法层再读取基本项 `primary`。因此解析 `1 + 2 * 3` 时，右侧 `2 * 3` 会先作为一个完整子表达式建立，再和左侧的 `1` 一起组成加法。括号也在 `primary` 规则里递归解析；例如 `(1 + 2) * 3` 会先把括号内的加法作为乘法的左操作数。
 
 不同语言可以有不同的文法和优先级规则。以上规则只覆盖整数、加号、乘号和括号，是为本例编写的教学用文法，不是任何完整语言的规范。
 
-### AST：保留有意义的程序结构
+### 抽象语法树：保留有意义的程序结构
 
 抽象语法树（AST）是按语法结构组织的树形表示。“抽象”表示它关注后续处理需要的语法关系，通常不保留每个空格、括号等原始排版细节。具体 AST 节点如何定义，由语言实现决定。
 
@@ -66,7 +68,7 @@ primary     → NUMBER | "(" expression ")"
 
 ![处理流程及表达式 1 + 2 * 3 的 AST；乘法节点是加法节点的右子节点](./assets/source-code-to-ast.svg)
 
-## 可运行示例：Lexer、Parser 与独立求值
+## 可运行示例：词法分析、语法分析与独立求值
 
 下面是一个真实可运行的 Python 示例，不是伪代码。它只实现非负整数、`+`、`*` 和括号，且使用分层递归下降 Parser 表达乘法优先级。代码注释使用英文，程序不会调用 `eval()`。
 
@@ -138,7 +140,7 @@ Result: 7
 
 结果 `7` 是脚本中独立求值函数遍历 AST 得出的，不是 AST 自己执行的。教学输出也包含脚本里的结构断言；若加法和乘法的父子关系不符，程序会直接失败。
 
-## AST 如何进入解释器或编译器
+## 抽象语法树如何进入解释器或编译器
 
 解释器（Interpreter）可以遍历 AST，并按节点定义实施语言语义。例如遇到 `BinaryExpression(+)`，解释器先求左子树，再求右子树，然后应用加法规则。示例脚本的 `evaluate` 函数只实现了这个小型整数表达式语言的求值，是一个简化的解释器步骤。
 
@@ -156,9 +158,9 @@ Python 的 `ast` 标准库也体现了这种区别：`ast.parse()` 可以返回 
 
 ## 参考资料
 
-- [Crafting Interpreters：Scanning](https://craftinginterpreters.com/scanning.html) — 词法分析和 Token 的职责。
-- [Crafting Interpreters：Representing Code](https://craftinginterpreters.com/representing-code.html) — 语法树与 AST 表示。
-- [Crafting Interpreters：Parsing Expressions](https://craftinginterpreters.com/parsing-expressions.html) — 表达式语法及优先级解析。
-- [Python `ast` 标准库文档](https://docs.python.org/3/library/ast.html) — AST 的结构，以及 AST 与 `compile()` 的关系。
+- [Crafting Interpreters：词法扫描](https://craftinginterpreters.com/scanning.html) — 词法分析和词元的职责。
+- [Crafting Interpreters：代码表示](https://craftinginterpreters.com/representing-code.html) — 语法树与抽象语法树表示。
+- [Crafting Interpreters：表达式解析](https://craftinginterpreters.com/parsing-expressions.html) — 表达式语法及优先级解析。
+- [Python `ast` 标准库文档](https://docs.python.org/3/library/ast.html) — 抽象语法树的结构，以及它与 `compile()` 的关系。
 
 本文的规则和代码是明确限定范围的教学示例；若要支持更多语言结构，应先为目标语言定义文法和语义，再扩充 Lexer、Parser 与 AST 节点。

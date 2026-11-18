@@ -1,5 +1,7 @@
 ---
-title: 计算机网络（Computer Networks）
+title: 计算机网络
+aliases:
+  - Computer Networks
 description: 研究设备如何通过协议交换数据，涵盖网络分层、寻址、路由、传输和应用通信。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 计算机网络（Computer Networks）
+# 计算机网络
 
-研究设备如何通过协议交换数据，涵盖网络分层、寻址、路由、传输和应用通信。
+计算机网络（Computer Networks）研究设备如何通过协议交换数据，涵盖网络分层、寻址、路由、传输和应用通信。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成（Computer Architecture and Organization）]]
-- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统（Software Architecture and Distributed Systems）]]
-- [[Computer-Science/10-Security-and-Reverse-Engineering/index|安全与逆向工程（Security and Reverse Engineering）]]
+- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
+- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
+- [[Computer-Science/10-Security-and-Reverse-Engineering/index|安全与逆向工程]]
 
 ## 建设状态
 

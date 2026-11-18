@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Computer Science Atlas
+  pageTitle: 计算机科学知识地图
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -146,6 +146,11 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      title: 目录
+      folderClickBehavior: link
+      folderDefaultState: collapsed
+      useSavedState: true
     layout:
       position: left
       priority: 50

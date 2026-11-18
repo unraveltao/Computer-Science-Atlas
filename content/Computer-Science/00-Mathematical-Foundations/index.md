@@ -1,5 +1,7 @@
 ---
-title: 数学基础（Mathematical Foundations）
+title: 数学基础
+aliases:
+  - Mathematical Foundations
 description: 提供描述与分析计算过程所需的离散结构、逻辑、概率与代数工具。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 数学基础（Mathematical Foundations）
+# 数学基础
 
-提供描述与分析计算过程所需的离散结构、逻辑、概率与代数工具。
+数学基础（Mathematical Foundations）提供描述与分析计算过程所需的离散结构、逻辑、概率与代数工具。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学（Theoretical Computer Science）]]
-- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法（Data Structures and Algorithms）]]
-- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成（Computer Architecture and Organization）]]
+- [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学]]
+- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
+- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
 
 ## 建设状态
 

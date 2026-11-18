@@ -1,5 +1,7 @@
 ---
-title: 理论计算机科学（Theoretical Computer Science）
+title: 理论计算机科学
+aliases:
+  - Theoretical Computer Science
 description: 研究计算模型、问题可解性、复杂度和形式化推理，为理解计算的边界提供理论基础。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 理论计算机科学（Theoretical Computer Science）
+# 理论计算机科学
 
-研究计算模型、问题可解性、复杂度和形式化推理，为理解计算的边界提供理论基础。
+理论计算机科学（Theoretical Computer Science）研究计算模型、问题可解性、复杂度和形式化推理，为理解计算的边界提供理论基础。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/00-Mathematical-Foundations/index|数学基础（Mathematical Foundations）]]
-- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法（Data Structures and Algorithms）]]
-- [[Computer-Science/03-Programming-Languages/index|编程语言（Programming Languages）]]
+- [[Computer-Science/00-Mathematical-Foundations/index|数学基础]]
+- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
+- [[Computer-Science/03-Programming-Languages/index|编程语言]]
 
 ## 建设状态
 

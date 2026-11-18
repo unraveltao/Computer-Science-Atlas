@@ -1,5 +1,7 @@
 ---
-title: 基础设施与运维（Infrastructure and Operations）
+title: 基础设施与运维
+aliases:
+  - Infrastructure and Operations
 description: 研究计算服务如何部署、观测、扩展和恢复，让软件在真实环境中稳定运行。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 基础设施与运维（Infrastructure and Operations）
+# 基础设施与运维
 
-研究计算服务如何部署、观测、扩展和恢复，让软件在真实环境中稳定运行。
+基础设施与运维（Infrastructure and Operations）研究计算服务如何部署、观测、扩展和恢复，让软件在真实环境中稳定运行。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成（Computer Architecture and Organization）]]
-- [[Computer-Science/05-Operating-Systems/index|操作系统（Operating Systems）]]
-- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统（Software Architecture and Distributed Systems）]]
+- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
+- [[Computer-Science/05-Operating-Systems/index|操作系统]]
+- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
 
 ## 建设状态
 

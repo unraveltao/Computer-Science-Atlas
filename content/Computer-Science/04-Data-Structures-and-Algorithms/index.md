@@ -1,5 +1,7 @@
 ---
-title: 数据结构与算法（Data Structures and Algorithms）
+title: 数据结构与算法
+aliases:
+  - Data Structures and Algorithms
 description: 研究数据的组织方式与解决计算问题的步骤，并分析正确性、效率和资源开销。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 数据结构与算法（Data Structures and Algorithms）
+# 数据结构与算法
 
-研究数据的组织方式与解决计算问题的步骤，并分析正确性、效率和资源开销。
+数据结构与算法（Data Structures and Algorithms）研究数据的组织方式与解决计算问题的步骤，并分析正确性、效率和资源开销。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/00-Mathematical-Foundations/index|数学基础（Mathematical Foundations）]]
-- [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学（Theoretical Computer Science）]]
-- [[Computer-Science/11-AI-and-Agent-Engineering/index|人工智能与 Agent 工程（AI and Agent Engineering）]]
+- [[Computer-Science/00-Mathematical-Foundations/index|数学基础]]
+- [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学]]
+- [[Computer-Science/11-AI-and-Agent-Engineering/index|人工智能与智能体工程]]
 
 ## 建设状态
 

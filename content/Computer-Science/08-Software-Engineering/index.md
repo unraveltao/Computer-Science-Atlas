@@ -1,5 +1,7 @@
 ---
-title: 软件工程（Software Engineering）
+title: 软件工程
+aliases:
+  - Software Engineering
 description: 研究如何协作开发、验证、交付和维护软件，让软件在变化中保持可靠与可理解。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 软件工程（Software Engineering）
+# 软件工程
 
-研究如何协作开发、验证、交付和维护软件，让软件在变化中保持可靠与可理解。
+软件工程（Software Engineering）研究如何协作开发、验证、交付和维护软件，让软件在变化中保持可靠与可理解。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/03-Programming-Languages/index|编程语言（Programming Languages）]]
-- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统（Software Architecture and Distributed Systems）]]
-- [[Computer-Science/12-Application-Development/index|应用开发（Application Development）]]
+- [[Computer-Science/03-Programming-Languages/index|编程语言]]
+- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
+- [[Computer-Science/12-Application-Development/index|应用开发]]
 
 ## 建设状态
 

@@ -1,5 +1,7 @@
 ---
-title: 安全与逆向工程（Security and Reverse Engineering）
+title: 安全与逆向工程
+aliases:
+  - Security and Reverse Engineering
 description: 研究系统如何暴露风险、如何抵御攻击，以及如何通过分析程序和协议理解其行为。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 安全与逆向工程（Security and Reverse Engineering）
+# 安全与逆向工程
 
-研究系统如何暴露风险、如何抵御攻击，以及如何通过分析程序和协议理解其行为。
+安全与逆向工程（Security and Reverse Engineering）研究系统如何暴露风险、如何抵御攻击，以及如何通过分析程序和协议理解其行为。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/05-Operating-Systems/index|操作系统（Operating Systems）]]
-- [[Computer-Science/06-Computer-Networks/index|计算机网络（Computer Networks）]]
-- [[Computer-Science/08-Software-Engineering/index|软件工程（Software Engineering）]]
+- [[Computer-Science/05-Operating-Systems/index|操作系统]]
+- [[Computer-Science/06-Computer-Networks/index|计算机网络]]
+- [[Computer-Science/08-Software-Engineering/index|软件工程]]
 
 ## 建设状态
 

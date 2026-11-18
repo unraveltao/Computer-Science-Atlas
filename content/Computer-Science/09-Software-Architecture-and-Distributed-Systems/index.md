@@ -1,5 +1,7 @@
 ---
-title: 软件架构与分布式系统（Software Architecture and Distributed Systems）
+title: 软件架构与分布式系统
+aliases:
+  - Software Architecture and Distributed Systems
 description: 研究软件组件如何划分与协作，以及多个节点如何在网络、并发和故障条件下提供服务。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 软件架构与分布式系统（Software Architecture and Distributed Systems）
+# 软件架构与分布式系统
 
-研究软件组件如何划分与协作，以及多个节点如何在网络、并发和故障条件下提供服务。
+软件架构与分布式系统（Software Architecture and Distributed Systems）研究软件组件如何划分与协作，以及多个节点如何在网络、并发和故障条件下提供服务。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/06-Computer-Networks/index|计算机网络（Computer Networks）]]
-- [[Computer-Science/07-Databases-and-Storage/index|数据库与存储（Databases and Storage）]]
-- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维（Infrastructure and Operations）]]
+- [[Computer-Science/06-Computer-Networks/index|计算机网络]]
+- [[Computer-Science/07-Databases-and-Storage/index|数据库与存储]]
+- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维]]
 
 ## 建设状态
 

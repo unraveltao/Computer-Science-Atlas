@@ -1,4 +1,4 @@
-# Agent Rules
+# Agent 规则
 
 - Preserve the existing Quartz v5 architecture and use its configuration, plugins, and conventions before adding implementation code.
 - Keep Obsidian compatibility: preserve ordinary Markdown, wikilinks, callouts, tags, Mermaid, and local image embedding.
@@ -18,7 +18,8 @@
   - `12-Application-Development`
   - `13-Infrastructure-and-Operations`
 - Place each knowledge page in one primary domain. Use links for cross-domain relationships instead of duplicate copies. Do not create a second-level folder unless the user asks for it.
-- Write public content in Chinese by default and retain English technical terms where they aid precision and discoverability.
+- Language policy: page, folder, and section titles use Chinese; visible internal-link text uses Chinese; first mentions of technical terms use `中文（English）`; filenames and paths remain English kebab-case. English `aliases` are allowed for search and URL slugs must remain stable.
+- Write public content in Simplified Chinese by default and retain English technical terms where they aid precision and discoverability.
 - Do not bulk-import personal notes or inspect private Notes/vault directories. Only add explicitly authorized public project content.
 - Keep Markdown content in `content/` and website implementation/configuration at the repository root and `quartz/`.
 - Treat this as a public repository. Never commit credentials, `.env` files, `.obsidian/`, `.trash/`, personal data, or generated `public/` output.

@@ -1,5 +1,7 @@
 ---
-title: 计算机体系结构与组成（Computer Architecture and Organization）
+title: 计算机体系结构与组成
+aliases:
+  - Computer Architecture and Organization
 description: 研究计算机硬件的组织方式，以及指令、处理器、存储层次和输入输出如何协同执行程序。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 计算机体系结构与组成（Computer Architecture and Organization）
+# 计算机体系结构与组成
 
-研究计算机硬件的组织方式，以及指令、处理器、存储层次和输入输出如何协同执行程序。
+计算机体系结构与组成（Computer Architecture and Organization）研究计算机硬件的组织方式，以及指令、处理器、存储层次和输入输出如何协同执行程序。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/05-Operating-Systems/index|操作系统（Operating Systems）]]
-- [[Computer-Science/06-Computer-Networks/index|计算机网络（Computer Networks）]]
-- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维（Infrastructure and Operations）]]
+- [[Computer-Science/05-Operating-Systems/index|操作系统]]
+- [[Computer-Science/06-Computer-Networks/index|计算机网络]]
+- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维]]
 
 ## 建设状态
 

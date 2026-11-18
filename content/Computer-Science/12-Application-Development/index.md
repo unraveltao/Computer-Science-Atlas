@@ -1,5 +1,7 @@
 ---
-title: 应用开发（Application Development）
+title: 应用开发
+aliases:
+  - Application Development
 description: 研究面向用户与业务场景构建应用的过程，连接界面、服务、数据和外部平台。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 应用开发（Application Development）
+# 应用开发
 
-研究面向用户与业务场景构建应用的过程，连接界面、服务、数据和外部平台。
+应用开发（Application Development）研究面向用户与业务场景构建应用的过程，连接界面、服务、数据和外部平台。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/03-Programming-Languages/index|编程语言（Programming Languages）]]
-- [[Computer-Science/07-Databases-and-Storage/index|数据库与存储（Databases and Storage）]]
-- [[Computer-Science/10-Security-and-Reverse-Engineering/index|安全与逆向工程（Security and Reverse Engineering）]]
+- [[Computer-Science/03-Programming-Languages/index|编程语言]]
+- [[Computer-Science/07-Databases-and-Storage/index|数据库与存储]]
+- [[Computer-Science/10-Security-and-Reverse-Engineering/index|安全与逆向工程]]
 
 ## 建设状态
 

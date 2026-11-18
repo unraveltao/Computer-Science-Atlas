@@ -1,5 +1,7 @@
 ---
-title: 操作系统（Operating Systems）
+title: 操作系统
+aliases:
+  - Operating Systems
 description: 研究操作系统如何管理处理器、内存、文件和设备，并为程序提供安全、稳定的执行环境。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 操作系统（Operating Systems）
+# 操作系统
 
-研究操作系统如何管理处理器、内存、文件和设备，并为程序提供安全、稳定的执行环境。
+操作系统（Operating Systems）研究操作系统如何管理处理器、内存、文件和设备，并为程序提供安全、稳定的执行环境。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成（Computer Architecture and Organization）]]
-- [[Computer-Science/06-Computer-Networks/index|计算机网络（Computer Networks）]]
-- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维（Infrastructure and Operations）]]
+- [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
+- [[Computer-Science/06-Computer-Networks/index|计算机网络]]
+- [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维]]
 
 ## 建设状态
 

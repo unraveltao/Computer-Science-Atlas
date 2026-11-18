@@ -1,5 +1,7 @@
 ---
-title: 编程语言（Programming Languages）
+title: 编程语言
+aliases:
+  - Programming Languages
 description: 研究语言如何表达计算、如何定义程序含义，以及编译器和运行时如何执行程序。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 编程语言（Programming Languages）
+# 编程语言
 
-研究语言如何表达计算、如何定义程序含义，以及编译器和运行时如何执行程序。
+编程语言（Programming Languages）研究语言如何表达计算、如何定义程序含义，以及编译器和运行时如何执行程序。
 
 ## 代表性知识主题
 
@@ -22,7 +24,7 @@ lang: zh-CN
 
 ## 知识文章
 
-- [从源代码到抽象语法树（From Source Code to AST）](./source-code-to-ast.md)：通过 `1 + 2 * 3` 理解词法分析、语法分析与运算符优先级。
+- [从源代码到抽象语法树](./source-code-to-ast.md)：通过 `1 + 2 * 3` 理解词法分析、语法分析与运算符优先级。
 
 ## 领域边界
 
@@ -30,9 +32,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法（Data Structures and Algorithms）]]
-- [[Computer-Science/08-Software-Engineering/index|软件工程（Software Engineering）]]
-- [[Computer-Science/11-AI-and-Agent-Engineering/index|人工智能与 Agent 工程（AI and Agent Engineering）]]
+- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
+- [[Computer-Science/08-Software-Engineering/index|软件工程]]
+- [[Computer-Science/11-AI-and-Agent-Engineering/index|人工智能与智能体工程]]
 
 ## 建设状态
 

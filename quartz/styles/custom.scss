@@ -6,6 +6,19 @@
   height: auto;
 }
 
+// Keep long Chinese Explorer labels readable without changing Quartz's mobile scrolling behavior.
+.explorer-content ul li > a,
+.explorer-content .folder-button {
+  min-width: 0;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.explorer-content ul li > a {
+  padding-block: 0.15rem;
+}
+
 @media (max-width: 600px) {
   .page-title {
     font-size: 1.15rem;

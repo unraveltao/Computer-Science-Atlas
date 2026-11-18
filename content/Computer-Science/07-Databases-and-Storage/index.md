@@ -1,5 +1,7 @@
 ---
-title: 数据库与存储（Databases and Storage）
+title: 数据库与存储
+aliases:
+  - Databases and Storage
 description: 研究数据如何持久化、组织、查询和保护，以及存储系统如何在一致性与性能间作出取舍。
 tags:
   - computer-science
@@ -8,9 +10,9 @@ modified: 2026-11-18
 lang: zh-CN
 ---
 
-# 数据库与存储（Databases and Storage）
+# 数据库与存储
 
-研究数据如何持久化、组织、查询和保护，以及存储系统如何在一致性与性能间作出取舍。
+数据库与存储（Databases and Storage）研究数据如何持久化、组织、查询和保护，以及存储系统如何在一致性与性能间作出取舍。
 
 ## 代表性知识主题
 
@@ -26,9 +28,9 @@ lang: zh-CN
 
 ## 相关领域
 
-- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法（Data Structures and Algorithms）]]
-- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统（Software Architecture and Distributed Systems）]]
-- [[Computer-Science/12-Application-Development/index|应用开发（Application Development）]]
+- [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
+- [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
+- [[Computer-Science/12-Application-Development/index|应用开发]]
 
 ## 建设状态
 
