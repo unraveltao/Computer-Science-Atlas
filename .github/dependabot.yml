@@ -8,6 +8,17 @@ updates:
     # major bump here passes `npm ci` but breaks plugins at runtime (#2586). Upgrade them
     # deliberately, together with the plugins.
     ignore:
+      # Compiler and framework/tool majors require a dedicated migration and CI review.
+      - dependency-name: "typescript"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "chokidar"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "is-absolute-url"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "js-yaml"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@changesets/cli"
+        update-types: ["version-update:semver-major"]
       - dependency-name: "preact"
         update-types: ["version-update:semver-major"]
       - dependency-name: "vfile"
@@ -38,6 +49,11 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    # Actions vN changes need a dedicated compatibility check across CI and Pages workflows.
+    # Apply reviewed major updates manually in a focused PR when ready.
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
     groups:
       ci-dependencies:
         applies-to: "version-updates"
