@@ -50,6 +50,7 @@ updates:
     schedule:
       interval: "weekly"
     # Actions vN changes need a dedicated compatibility check across CI and Pages workflows.
+    # Apply reviewed major updates manually in a focused PR when ready.
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
