@@ -1,9 +1,22 @@
-# Content Guidelines
+# 内容归档规范
 
-- Write one focused, self-contained Markdown page per concept.
-- Use YAML frontmatter for `title`, a concise `description`, and relevant `tags`.
-- Use standard Markdown headings, lists, links, and code fences. Obsidian wikilinks, callouts, tags, and Mermaid are supported.
-- Link related pages with relative Markdown links or Obsidian wikilinks. Prefer descriptive link text.
-- Keep knowledge organized by computer-science subject domain. Do not add unapproved taxonomy categories or bulk-import personal notes.
-- Keep implementation code outside `content/`; keep explanatory writing in Markdown.
-- Treat all content as public before committing it. Never add secrets, private notes, or `.obsidian/` vault settings.
+## 语言与页面结构
+
+- 以简体中文撰写，必要的 English technical terms 保留；首次出现时可写作“中文（English）”。
+- 每页聚焦一个概念或问题，确保页面可独立理解，并以链接连接相关知识。
+- 使用 YAML frontmatter，至少包含 `title`、简短 `description`、相关 `tags` 和 `lang: zh-CN`。
+- 用层次清楚的标题、示例和列表说明概念；不要把尚未验证的推测写成事实。
+
+## 分类与归档
+
+- 每个页面只选择一个主要归属，放入 `content/Computer-Science/` 下已批准的 14 个领域之一。
+- 相关领域通过内部链接建立关联，避免重复维护同一知识内容。
+- 新建二级分类前先确认现有分类无法容纳该内容，并获得用户授权；领域首页中的主题清单只是规划，不代表已有完整文章。
+- 首页、Welcome 和领域 index 页用于导航与范围说明，不替代具体知识文章。
+
+## 引用与公开
+
+- 对外部事实、数据、规范和重要论断提供原始资料或可靠来源链接，并说明引用适用范围。
+- 使用描述清楚的内部链接；新增链接后检查目标页面存在且 Quartz 构建可解析。
+- 所有提交内容均视为公开发布。不要加入私人笔记、凭据、个人数据或 `.obsidian/` vault 设置。
+- 内容来源、许可或改编关系不清楚时，先核实再纳入。

@@ -1,17 +1,19 @@
-# Asset Guidelines
+# 图片与图示规范
 
-## Formats
+图像用于解释难以仅靠文字表达的结构或过程，不强制每篇文章配图。应优先选择能帮助理解的图示，避免纯装饰或重复资源。
 
-- Use Mermaid for simple process diagrams and relationships.
-- Use SVG for detailed architecture diagrams and knowledge infographics.
-- Use WebP for educational illustrations and story-based visuals.
-- Use PNG only when transparency or a specific PNG workflow requires it.
+## 类型选择
 
-## Storage and naming
+- **Mermaid**：简单流程、时序和关系，便于随 Markdown 修改。
+- **SVG**：精细架构图、复杂关系图和需要清晰缩放的信息图。
+- **WebP**：教学插图、故事场景和体积较大的栅格图。
+- **PNG**：确实需要透明背景或无损像素图时使用。
 
-- Store assets used by one topic beside its Markdown in that topic's `assets/` folder.
-- Store reusable files in `content/assets/shared/`, `content/assets/illustrations/`, or `content/assets/branding/`.
-- Use English kebab-case filenames and prefer paths relative to the Markdown page.
-- Add meaningful alt text to every embedded image.
-- Keep assets separate from explanatory Markdown and avoid duplicate copies.
-- Do not commit temporary/generated build files or large batches of images to `content/`.
+## 存放与引用
+
+- 仅供一篇知识文章使用的资源，放在该文章同目录的 `assets/` 子目录。
+- 跨文章复用的资源放在 `content/assets/shared/`、`content/assets/illustrations/` 或 `content/assets/branding/`。
+- 文件名使用英文 kebab-case，链接优先使用相对路径。
+- 每张嵌入图片都提供准确、简洁且有意义的 alt text。
+- 避免复制相同资源；不要把临时文件或构建产物放入 `content/`。
+- 内容保持在 Markdown，图像文件与说明文字分别维护；不批量制作插画。

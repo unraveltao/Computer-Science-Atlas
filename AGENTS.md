@@ -1,8 +1,24 @@
 # Agent Rules
 
 - Preserve the existing Quartz v5 architecture and use its configuration, plugins, and conventions before adding implementation code.
-- Keep Obsidian compatibility: preserve support for wikilinks, callouts, tags, Mermaid, and ordinary Markdown.
-- Do not change or expand the approved knowledge taxonomy without explicit authorization. The complete subject-domain hierarchy has not yet been approved.
+- Keep Obsidian compatibility: preserve ordinary Markdown, wikilinks, callouts, tags, Mermaid, and local image embedding.
+- The following 14 first-level knowledge domains are the approved Atlas taxonomy. Preserve their names, order, and primary ownership; do not add or rename top-level domains without explicit authorization:
+  - `00-Mathematical-Foundations`
+  - `01-Theoretical-Computer-Science`
+  - `02-Computer-Architecture-and-Organization`
+  - `03-Programming-Languages`
+  - `04-Data-Structures-and-Algorithms`
+  - `05-Operating-Systems`
+  - `06-Computer-Networks`
+  - `07-Databases-and-Storage`
+  - `08-Software-Engineering`
+  - `09-Software-Architecture-and-Distributed-Systems`
+  - `10-Security-and-Reverse-Engineering`
+  - `11-AI-and-Agent-Engineering`
+  - `12-Application-Development`
+  - `13-Infrastructure-and-Operations`
+- Place each knowledge page in one primary domain. Use links for cross-domain relationships instead of duplicate copies. Do not create a second-level folder unless the user asks for it.
+- Write public content in Chinese by default and retain English technical terms where they aid precision and discoverability.
 - Do not bulk-import personal notes or inspect private Notes/vault directories. Only add explicitly authorized public project content.
 - Keep Markdown content in `content/` and website implementation/configuration at the repository root and `quartz/`.
 - Treat this as a public repository. Never commit credentials, `.env` files, `.obsidian/`, `.trash/`, personal data, or generated `public/` output.
