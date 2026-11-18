@@ -14,4 +14,8 @@ Checks run:
 
 ## Related issue
 
-Closes #
+GitHub issue: Closes #
+
+Linear issue (if applicable):
+
+Add the Linear link manually. GitHub and Linear do not synchronize issue or PR status automatically; see [CONTRIBUTING.md](../CONTRIBUTING.md).

@@ -6,6 +6,10 @@ labels: enhancement
 assignees: ""
 ---
 
+For contribution and GitHub–Linear tracking guidance, see [CONTRIBUTING.md](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md).
+
+**Related Linear issue (optional)**
+
 **What problem or learning need should this address?**
 Describe the learner or contributor need and, when relevant, link to the affected page.
 
