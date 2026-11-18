@@ -7,4 +7,10 @@ This repository contains two kinds of documentation:
 
 The site build reads `content/` by default. Use the Quartz guides when you need to understand or configure the framework. Repository-specific content and asset conventions are documented in the root [`AGENTS.md`](../AGENTS.md).
 
+## Atlas maintenance guides
+
+- [Content guidelines](./content-guidelines.md) — writing, metadata, and archive requirements.
+- [Knowledge architecture](./knowledge-architecture.md) — approved domain boundaries and cross-knowledge ownership.
+- [Asset guidelines](./asset-guidelines.md) — image and diagram formats, storage, and references.
+
 Quartz is licensed under the MIT License. See [`LICENSE.txt`](../LICENSE.txt) and preserve its copyright and attribution notices when redistributing the framework code and documentation.
