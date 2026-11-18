@@ -6,6 +6,10 @@ labels: bug
 assignees: ""
 ---
 
+For local setup and contribution guidance, see [CONTRIBUTING.md](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md). If this work is tracked in Linear, add its link below.
+
+**Related Linear issue (optional)**
+
 **Describe the problem**
 What did you encounter? Include the affected page URL or content path.
 

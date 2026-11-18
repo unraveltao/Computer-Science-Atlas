@@ -3,7 +3,7 @@ title: 欢迎
 description: 认识计算机科学知识图谱，并了解如何开始探索。
 tags:
   - start-here
-modified: 2026-11-18
+modified: 2026-11-19
 lang: zh-CN
 ---
 
@@ -15,6 +15,7 @@ lang: zh-CN
 
 - [[Authoring-Guide|查看内容编写指南]]，了解本项目的 Markdown 约定。
 - [[../Computer-Science/index|浏览计算机科学知识领域]]，从感兴趣的主题开始。
+- [参与项目贡献](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md)，查看本地预览、写作校验和 Pull Request 流程。
 
 > [!tip] 顺着关联继续探索
 > 阅读页面时可以查看内部链接、反向链接（backlinks）和关系图（Graph view），沿着概念关系找到下一篇内容；也可以使用站内搜索。

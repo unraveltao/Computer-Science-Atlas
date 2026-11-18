@@ -4,13 +4,15 @@ description: 使用兼容 Obsidian 的 Markdown 编写和维护知识页面。
 tags:
   - start-here
   - authoring
-modified: 2026-11-18
+modified: 2026-11-19
 lang: zh-CN
 ---
 
 # 内容编写指南
 
 本指南展示网站支持的写作方式。你可以在 Obsidian 或普通文本编辑器中修改 Markdown 文件，再由 Quartz 构建为网站页面。
+
+本页用于介绍页面写法示例。正式贡献前，请以仓库的[内容归档规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/content-guidelines.md)、[知识领域与归档边界](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/knowledge-architecture.md)和[图片与图示规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/asset-guidelines.md)为准，并按[参与贡献指南](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md)运行检查。
 
 ## 页面元数据
 
