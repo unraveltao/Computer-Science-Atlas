@@ -1,19 +1,19 @@
 ---
 name: Feature request
-about: Suggest an idea or improvement for Quartz
+about: Suggest an improvement to the Computer Science Atlas
 title: ""
 labels: enhancement
 assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**What problem or learning need should this address?**
+Describe the learner or contributor need and, when relevant, link to the affected page.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**What change do you propose?**
+Describe the desired content, navigation, or site behavior.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Alternatives considered**
+What other approaches might work?
 
 **Additional context**
 Add any other context or screenshots about the feature request here.

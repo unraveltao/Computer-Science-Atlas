@@ -1,15 +1,15 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "computer-science-atlas",
+  "description": "A Chinese-language, interconnected map of computer science knowledge.",
   "private": true,
   "version": "5.1.0",
   "type": "module",
-  "author": "jackyzha0 <j.zhao2k19@gmail.com>",
+  "author": "Unravel Tao",
   "license": "MIT",
-  "homepage": "https://quartz.jzhao.xyz",
+  "homepage": "https://unraveltao.github.io/Computer-Science-Atlas/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jackyzha0/quartz.git"
+    "url": "https://github.com/unraveltao/Computer-Science-Atlas.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -31,6 +31,8 @@
     "site generator",
     "ssg",
     "digital-garden",
+    "computer-science",
+    "knowledge-map",
     "markdown",
     "blog",
     "quartz"
