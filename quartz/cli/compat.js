@@ -14,13 +14,13 @@ import path from "node:path"
 import { execFileSync } from "node:child_process"
 import semver from "semver"
 
-const QUARTZ_PACKAGE = "@jackyzha0/quartz"
+const QUARTZ_PACKAGE_NAMES = new Set(["@jackyzha0/quartz", "computer-science-atlas"])
 
 /** Version from Quartz's package.json (cwd = Quartz root for every CLI command). */
 export function readQuartzVersion(root = process.cwd()) {
   try {
     const pkg = JSON.parse(fs.readFileSync(path.join(root, "package.json"), "utf8"))
-    if (pkg?.name === QUARTZ_PACKAGE && typeof pkg.version === "string") return pkg.version
+    if (QUARTZ_PACKAGE_NAMES.has(pkg?.name) && typeof pkg.version === "string") return pkg.version
   } catch {}
   return undefined
 }
