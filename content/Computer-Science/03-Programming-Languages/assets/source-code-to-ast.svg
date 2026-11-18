@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">从源代码到 AST：1 + 2 * 3</title>
+  <desc id="desc">源代码依次经过 Lexer、Token 和 Parser 形成 AST。下方语法树以加法为根，右子节点是乘法，体现乘法优先。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto">
+      <path d="M0 0L10 4L0 8Z" fill="#52677a" />
+    </marker>
+    <style>
+      text { font-family: system-ui, "Segoe UI", sans-serif; fill: #243746; }
+      .stage { fill: #f3f7fa; stroke: #52677a; stroke-width: 2; }
+      .tree { fill: #eaf3f0; stroke: #39756a; stroke-width: 2; }
+      .edge { fill: none; stroke: #52677a; stroke-width: 2.5; marker-end: url(#arrow); }
+      .branch { fill: none; stroke: #39756a; stroke-width: 2.5; }
+      .label { font-size: 21px; font-weight: 650; text-anchor: middle; }
+      .small { font-size: 18px; text-anchor: middle; }
+      .heading { font-size: 25px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <text x="48" y="45" class="heading">处理流程</text>
+  <rect x="210" y="65" width="300" height="62" rx="12" class="stage" />
+  <text x="360" y="91" class="label">Source Code</text>
+  <text x="360" y="116" class="small">1 + 2 * 3</text>
+  <path d="M360 130V151" class="edge" />
+  <rect x="210" y="160" width="300" height="58" rx="12" class="stage" />
+  <text x="360" y="197" class="label">Lexer</text>
+  <path d="M360 221V242" class="edge" />
+  <rect x="210" y="251" width="300" height="62" rx="12" class="stage" />
+  <text x="360" y="277" class="label">Tokens</text>
+  <text x="360" y="302" class="small">1 · + · 2 · * · 3</text>
+  <path d="M360 316V337" class="edge" />
+  <rect x="210" y="346" width="300" height="58" rx="12" class="stage" />
+  <text x="360" y="383" class="label">Parser</text>
+  <path d="M360 407V428" class="edge" />
+  <rect x="210" y="437" width="300" height="58" rx="12" class="stage" />
+  <text x="360" y="474" class="label">AST</text>
+
+  <text x="48" y="550" class="heading">AST：乘法是加法的右子树</text>
+  <path d="M360 647L220 710M360 647L500 710M500 778L425 830M500 778L575 830" class="branch" />
+  <rect x="240" y="590" width="240" height="58" rx="12" class="tree" />
+  <text x="360" y="627" class="label">BinaryExpression (+)</text>
+
+  <rect x="110" y="710" width="220" height="58" rx="12" class="tree" />
+  <text x="220" y="747" class="label">Number (1)</text>
+
+  <rect x="380" y="710" width="240" height="68" rx="12" class="tree" />
+  <text x="500" y="740" class="label">BinaryExpression</text>
+  <text x="500" y="765" class="small">operator: *</text>
+
+  <rect x="340" y="830" width="170" height="58" rx="12" class="tree" />
+  <text x="425" y="867" class="label">Number (2)</text>
+  <rect x="490" y="830" width="170" height="58" rx="12" class="tree" />
+  <text x="575" y="867" class="label">Number (3)</text>
+</svg>
