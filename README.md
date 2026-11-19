@@ -38,3 +38,5 @@ Computer Science Atlas（计算机科学知识地图）是一个持续建设的�
 本站以中文为主，保留常用 English technical terms。领域首页介绍研究范围和代表性主题；知识文章会在经过整理后逐步补充。当前 V0.2 提供导航与内容规范，不代表所有领域主题都已有完整文章。项目使用 Quartz 作为静态站点生成器；学习内容位于 `content/`，框架使用说明位于 [`docs/README.md`](docs/README.md)。
 
 欢迎通过 [GitHub Issues](https://github.com/unraveltao/Computer-Science-Atlas/issues) 提交纠错、建议或贡献想法。开始贡献前请阅读[参与贡献](CONTRIBUTING.md)；内容分类、写作和图片规范见 [`docs/README.md`](docs/README.md)。
+
+<!-- Codex task marker: replace this branch's README with the approved open-ended learning-map structure. Remove this marker in the final README. -->
