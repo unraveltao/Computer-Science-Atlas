@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 720" role="img" aria-labelledby="title desc">
+  <title id="title">技能调用的四个质量关口</title>
+  <desc id="desc">从用户请求到技能被发现、被选择、正确执行和结果验证的四层流程。各层失败有不同的排查方向。</desc>
+  <rect x="1" y="1" width="618" height="718" rx="22" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="310" y="45" font-size="25" font-weight="700" text-anchor="middle" fill="#0f172a" font-family="sans-serif">技能调用：四个不同的问题</text>
+  <text x="310" y="77" font-size="15" text-anchor="middle" fill="#475569" font-family="sans-serif">工程诊断模型 · 不代表所有客户端的内部实现</text>
+  <rect x="150" y="100" width="320" height="66" rx="14" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="310" y="128" text-anchor="middle" fill="#075985" font-size="19" font-weight="700" font-family="sans-serif">用户提出任务</text>
+  <text x="310" y="151" text-anchor="middle" fill="#075985" font-size="14" font-family="sans-serif">“帮我了解这个 GitHub 项目”</text>
+  <path d="M310 166 V190 M303 182 L310 191 L317 182" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="194" width="544" height="98" rx="13" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="88" cy="243" r="27" fill="#0f766e"/>
+  <text x="88" y="250" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700" font-family="sans-serif">1</text>
+  <text x="131" y="230" fill="#0f172a" font-size="19" font-weight="700" font-family="sans-serif">发现 · Discovery</text>
+  <text x="131" y="254" fill="#475569" font-size="15" font-family="sans-serif">客户端是否识别到 Skill？</text>
+  <text x="131" y="278" fill="#b45309" font-size="14" font-family="sans-serif">未发现 → 检查路径、元数据与加载方式</text>
+  <path d="M310 293 V316 M303 308 L310 317 L317 308" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="320" width="544" height="98" rx="13" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="88" cy="369" r="27" fill="#2563eb"/>
+  <text x="88" y="376" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700" font-family="sans-serif">2</text>
+  <text x="131" y="357" fill="#0f172a" font-size="19" font-weight="700" font-family="sans-serif">选择 · Selection</text>
+  <text x="131" y="380" fill="#475569" font-size="15" font-family="sans-serif">当前请求是否选中了它？</text>
+  <text x="131" y="405" fill="#b45309" font-size="14" font-family="sans-serif">未选择或误触发 → 检查描述、边界与竞争</text>
+  <path d="M310 419 V442 M303 434 L310 443 L317 434" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="446" width="544" height="98" rx="13" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="88" cy="495" r="27" fill="#7c3aed"/>
+  <text x="88" y="502" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700" font-family="sans-serif">3</text>
+  <text x="131" y="483" fill="#0f172a" font-size="19" font-weight="700" font-family="sans-serif">执行 · Execution</text>
+  <text x="131" y="507" fill="#475569" font-size="15" font-family="sans-serif">是否遵守规则并取得所需资料？</text>
+  <text x="131" y="531" fill="#b45309" font-size="14" font-family="sans-serif">结果偏差 → 检查指令、工具与权限</text>
+  <path d="M310 545 V568 M303 560 L310 569 L317 560" fill="none" stroke="#64748b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="38" y="572" width="544" height="98" rx="13" fill="#ffffff" stroke="#94a3b8" stroke-width="1.5"/>
+  <circle cx="88" cy="621" r="27" fill="#15803d"/>
+  <text x="88" y="628" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="700" font-family="sans-serif">4</text>
+  <text x="131" y="609" fill="#0f172a" font-size="19" font-weight="700" font-family="sans-serif">验证 · Verification</text>
+  <text x="131" y="633" fill="#475569" font-size="15" font-family="sans-serif">是否有真实触发与输出的证据？</text>
+  <text x="131" y="657" fill="#b45309" font-size="14" font-family="sans-serif">证据不足 → 标记未验证，而不是假定通过</text>
+  <text x="310" y="698" text-anchor="middle" fill="#475569" font-size="13" font-family="sans-serif">发现成功 ≠ 自动触发成功 ≠ 输出质量通过</text>
+</svg>
