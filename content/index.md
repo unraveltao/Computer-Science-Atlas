@@ -17,6 +17,11 @@ lang: zh-CN
 
 [**进入知识领域导航 →**](./Computer-Science/index.md)
 
+## 学习与实践
+
+- [从工程故事理解计算机科学](./Computer-Science/engineering-storyline.md)：跟随一个订单系统连接原理、工程思想和实践。
+- [工具使用指南](./Tools/index.md)：学习 Git、GitHub 和 Codex 的协作流程。
+
 ## 从这里开始
 
 - [欢迎阅读](./Start-Here/Welcome.md)：了解项目目标与浏览方式。

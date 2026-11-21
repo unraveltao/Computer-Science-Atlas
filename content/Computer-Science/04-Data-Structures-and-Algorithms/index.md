@@ -6,7 +6,7 @@ description: 研究数据的组织方式与解决计算问题的步骤，并分�
 tags:
   - computer-science
   - 04-data-structures-and-algorithms
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/00-Mathematical-Foundations/index|数学基础]]
 - [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学]]
 - [[Computer-Science/11-AI-and-Agent-Engineering/index|人工智能与智能体工程]]
+
+
+## 知识文章
+
+- [正确之外，还要考虑规模](./algorithm-performance-tradeoffs.md)：从订单查询理解复杂度、索引和性能权衡。
 
 ## 建设状态
 

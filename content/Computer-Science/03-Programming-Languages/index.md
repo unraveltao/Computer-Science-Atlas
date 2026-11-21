@@ -6,7 +6,7 @@ description: 研究语言如何表达计算、如何定义程序含义，以及�
 tags:
   - computer-science
   - 03-programming-languages
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -25,6 +25,7 @@ lang: zh-CN
 ## 知识文章
 
 - [从源代码到抽象语法树](./source-code-to-ast.md)：通过 `1 + 2 * 3` 理解词法分析、语法分析与运算符优先级。
+- [让程序结构可理解](./why-programming-languages-need-structure.md)：理解解析结构如何支持检查、转换和安全重构。
 
 ## 领域边界
 

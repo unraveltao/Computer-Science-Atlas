@@ -12,7 +12,7 @@ lang: zh-CN
 
 本指南展示网站支持的写作方式。你可以在 Obsidian 或普通文本编辑器中修改 Markdown 文件，再由 Quartz 构建为网站页面。
 
-本页用于介绍页面写法示例。正式贡献前，请以仓库的[内容归档规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/content-guidelines.md)、[知识领域与归档边界](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/knowledge-architecture.md)和[图片与图示规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/asset-guidelines.md)为准，并按[参与贡献指南](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md)运行检查。
+若要撰写从工程问题展开的知识文章，可先使用[故事驱动知识文章模板](Story-Driven-Article-Template.md)。模板要求解释概念的由来、工程价值、例子、误区、工程哲学和下一篇文章。本页用于介绍页面写法示例。正式贡献前，请以仓库的[内容归档规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/content-guidelines.md)、[知识领域与归档边界](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/knowledge-architecture.md)和[图片与图示规范](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/docs/asset-guidelines.md)为准，并按[参与贡献指南](https://github.com/unraveltao/Computer-Science-Atlas/blob/main/CONTRIBUTING.md)运行检查。
 
 ## 页面元数据
 

@@ -6,7 +6,7 @@ description: 研究计算服务如何部署、观测、扩展和恢复，让软�
 tags:
   - computer-science
   - 13-infrastructure-and-operations
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
 - [[Computer-Science/05-Operating-Systems/index|操作系统]]
 - [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
+
+
+## 知识文章
+
+- [用可观测性理解系统可靠性](./observability-for-reliability.md)：用日志、指标、追踪与目标定位服务退化。
 
 ## 建设状态
 

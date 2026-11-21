@@ -3,7 +3,7 @@ title: 计算机科学知识领域
 description: 本知识地图的 14 个一级知识领域统一入口。
 tags:
   - computer-science
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -27,6 +27,10 @@ lang: zh-CN
 | [人工智能与智能体工程](./11-AI-and-Agent-Engineering/index.md)                      | 探索智能方法及其智能体系统工程实践。       |
 | [应用开发](./12-Application-Development/index.md)                                   | 面向用户与业务场景构建应用。               |
 | [基础设施与运维](./13-Infrastructure-and-Operations/index.md)                       | 关注软件部署、观测、扩展与稳定运行。       |
+
+## 学习路线
+
+- [从工程故事理解计算机科学](./engineering-storyline.md)：沿着订单服务从需求、执行到协作交付，串起基础知识与工程实践。
 
 ## 如何使用
 

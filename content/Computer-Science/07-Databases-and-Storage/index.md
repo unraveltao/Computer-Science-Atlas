@@ -6,7 +6,7 @@ description: 研究数据如何持久化、组织、查询和保护，以及存�
 tags:
   - computer-science
   - 07-databases-and-storage
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
 - [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
 - [[Computer-Science/12-Application-Development/index|应用开发]]
+
+
+## 知识文章
+
+- [事务如何保护数据变更](./transactions-and-durability.md)：从重复下单理解事务、隔离和持久化。
 
 ## 建设状态
 

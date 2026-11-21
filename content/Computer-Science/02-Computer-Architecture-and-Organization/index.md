@@ -6,7 +6,7 @@ description: 研究计算机硬件的组织方式，以及指令、处理器、�
 tags:
   - computer-science
   - 02-computer-architecture-and-organization
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/05-Operating-Systems/index|操作系统]]
 - [[Computer-Science/06-Computer-Networks/index|计算机网络]]
 - [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维]]
+
+
+## 知识文章
+
+- [从代码到机器动作](./from-code-to-machine.md)：从订单计算理解指令执行和存储层次。
 
 ## 建设状态
 
