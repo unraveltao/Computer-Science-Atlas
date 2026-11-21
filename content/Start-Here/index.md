@@ -13,3 +13,5 @@ lang: zh-CN
 
 - [[Welcome|欢迎]]：了解网站定位与浏览方式。
 - [[Authoring-Guide|内容编写指南]]：查看标题、链接、专业术语和资源的写作规范。
+- [[Story-Driven-Article-Template|故事驱动文章模板]]：用工程故事解释概念的来由、价值与适用边界。
+- [[../Computer-Science/engineering-storyline|工程故事学习路线]]：从计算机基础走到工程实践。

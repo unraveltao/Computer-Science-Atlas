@@ -6,7 +6,7 @@ description: 研究操作系统如何管理处理器、内存、文件和设备�
 tags:
   - computer-science
   - 05-operating-systems
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
 - [[Computer-Science/06-Computer-Networks/index|计算机网络]]
 - [[Computer-Science/13-Infrastructure-and-Operations/index|基础设施与运维]]
+
+
+## 知识文章
+
+- [程序怎样共享一台机器](./processes-share-machine.md)：理解进程、线程、虚拟内存和调度。
 
 ## 建设状态
 

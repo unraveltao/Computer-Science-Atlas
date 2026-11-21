@@ -6,7 +6,7 @@ description: 研究如何协作开发、验证、交付和维护软件，让软�
 tags:
   - computer-science
   - 08-software-engineering
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,12 @@ lang: zh-CN
 - [[Computer-Science/03-Programming-Languages/index|编程语言]]
 - [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
 - [[Computer-Science/12-Application-Development/index|应用开发]]
+
+
+## 知识文章
+
+- [安全地推进软件改动](./engineering-change-safely.md)：以需求、测试、评审和重构控制变化风险。
+- [设计模式是变化的边界](./design-patterns-as-change-boundaries.md)：理解模式如何隔离变化，以及何时构成过度设计。
 
 ## 建设状态
 

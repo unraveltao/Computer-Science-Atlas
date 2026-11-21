@@ -6,7 +6,7 @@ description: 研究设备如何通过协议交换数据，涵盖网络分层、�
 tags:
   - computer-science
   - 06-computer-networks
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
 - [[Computer-Science/09-Software-Architecture-and-Distributed-Systems/index|软件架构与分布式系统]]
 - [[Computer-Science/10-Security-and-Reverse-Engineering/index|安全与逆向工程]]
+
+
+## 知识文章
+
+- [跟踪一次网络请求](./follow-a-network-request.md)：沿 DNS、TCP、HTTP 路径分析超时与重试。
 
 ## 建设状态
 

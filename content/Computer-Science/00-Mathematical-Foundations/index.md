@@ -6,7 +6,7 @@ description: 提供描述与分析计算过程所需的离散结构、逻辑、�
 tags:
   - computer-science
   - 00-mathematical-foundations
-modified: 2026-11-18
+modified: 2026-11-21
 lang: zh-CN
 ---
 
@@ -31,6 +31,11 @@ lang: zh-CN
 - [[Computer-Science/01-Theoretical-Computer-Science/index|理论计算机科学]]
 - [[Computer-Science/04-Data-Structures-and-Algorithms/index|数据结构与算法]]
 - [[Computer-Science/02-Computer-Architecture-and-Organization/index|计算机体系结构与组成]]
+
+
+## 知识文章
+
+- [先把需求说成明确条件](./requirements-as-logic.md)：用逻辑和边界案例把优惠规则转成明确条件。
 
 ## 建设状态
 
